@@ -44,3 +44,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a378876ba6a620848b1958eaf67742a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  headUpDisplay: {fileID: 0}
+  m_SceneAssets:
+  - {fileID: 102900000, guid: 949e5f1b60c5b02489f61581997ab5c5, type: 3}
+  - {fileID: 102900000, guid: f55d3095eaebe9244952626104bf5c46, type: 3}
+  bestGame: 2147483647
+  movesCounter: 0

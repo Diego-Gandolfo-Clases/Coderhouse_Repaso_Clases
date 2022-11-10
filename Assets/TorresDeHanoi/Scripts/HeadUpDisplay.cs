@@ -48,6 +48,6 @@ public class HeadUpDisplay : MonoBehaviour
 
     public void MainMenu()
     {
-        SceneManager.LoadScene("01_MainMenu");
+        SceneManager.LoadScene("Assets/TorresDeHanoi/Scene/01_MainMenu.unity");
     }
 }

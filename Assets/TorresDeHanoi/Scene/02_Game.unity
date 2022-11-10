@@ -2390,6 +2390,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6645379445410462982, guid: 42374177267c53941ab1ff70d3f7c9e8, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6645379445410462982, guid: 42374177267c53941ab1ff70d3f7c9e8, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 3946781de3523ef42ae35c068373adaa, type: 2}

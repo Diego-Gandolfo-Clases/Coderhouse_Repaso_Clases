@@ -10,12 +10,13 @@ public class MainMenu : MonoBehaviour
     {
         if (GameManager.Instance == null) return;
         if (GameManager.Instance.bestGame == int.MaxValue) return;
+
         bestGameText.text = GameManager.Instance.bestGame.ToString();
     }
     
     public void Play()
     {
-        SceneManager.LoadScene("02_Game");
+        SceneManager.LoadScene("Assets/TorresDeHanoi/Scene/02_Game.unity");
     }
 
     public void Exit()
