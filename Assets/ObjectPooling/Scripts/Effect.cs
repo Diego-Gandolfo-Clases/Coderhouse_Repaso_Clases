@@ -25,7 +25,8 @@ public class Effect : MonoBehaviour
 
         if (timeCounter <= 0f)
         {
-            gameObject.SetActive(false);
+            //gameObject.SetActive(false);
+            PoolManager.Instance.effectPool.StoreInstance(gameObject);
         }
     }
 
