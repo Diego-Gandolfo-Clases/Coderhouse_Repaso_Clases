@@ -8,15 +8,11 @@ public class Effect : MonoBehaviour
     [SerializeField] private ParticleSystem effect;
 
     private float timeCounter;
-
-    private void Start()
-    {
-        Initialize();
-    }
+    private bool canCount = false;
 
     private void Update()
     {
-        Timer();
+        if (canCount) Timer();
     }
     
     private void Timer()
@@ -25,6 +21,7 @@ public class Effect : MonoBehaviour
 
         if (timeCounter <= 0f)
         {
+            canCount = false;
             gameObject.SetActive(false);
         }
     }
@@ -33,5 +30,6 @@ public class Effect : MonoBehaviour
     {
         timeCounter = timeToDeactivate;
         effect.Play();
+        canCount = true;
     }
 }
